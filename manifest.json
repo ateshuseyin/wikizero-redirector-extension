@@ -1,6 +1,6 @@
 {
-  "name": "WikiZero",
-  "description": "Redirect The Wikipedia to WikiZerot",
+  "name": "WikiZero Redirector",
+  "description": "Redirect Wikipedia to WikiZero",
   "version": "1.0",
   "manifest_version": 2,
   "background": {

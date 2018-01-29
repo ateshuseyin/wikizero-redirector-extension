@@ -1,0 +1,22 @@
+{
+  "name": "WikiZero",
+  "description": "Redirect The Wikipedia to WikiZerot",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "wiki.png"
+  },
+  "icons": {
+    "48": "wiki.png"
+  },
+  "permissions": [
+    "webRequest",
+    "*://*.wikipedia.org/wiki/*",
+    "webRequestBlocking"
+  ]
+}
